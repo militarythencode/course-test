@@ -1,12 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Starter Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
-<body>
-    test
+
+<body id="body-styles">
+    <!-- Start Header -->
+    <header class="header header-wrapper">
+        <img class="header-logo" src="/assets/imgs/logo.png" alt="Main logo">
+        <nav class="header-nav">
+            <ul class="header-nav__items-wrapper">
+                <li class="header-nav__item">
+                    <a href="#">Home</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#">About Us</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#">Services</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#">Portfolio</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="header-button">Let's Talk</button>
+    </header>
+    <!-- End Header -->
+
+    <!-- Hero Start  -->
+    <section class="hero hero-wrapper">
+        <div class="hero-text__wrapper">
+            <h1 class="hero-text__heading">Business Solution Experts</h1>
+            <p class="hero-text__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                voluptas exercitationem fugit nemo omnis laudantium voluptatem alias, veniam fuga molestiae culpa
+                consequatur. Tempore maiores repudiandae sapiente voluptas doloribus deleniti excepturi?</p>
+            <button class="hero-text__button">Get Started Now!</button>
+        </div>
+        <img class="hero-text__image" src="/assets/imgs/hero-img.png" alt="Hero Image">
+    </section>
+    <!-- Hero End  -->
+
+    <!-- Services Start  -->
+    <section class="services services-wrapper">
+        <h1 class="services-preheading">Our Services</h1>
+        <h2 class="services-heading">What We Do</h2>
+        <div class="services-cards__wrapper">
+            <div class="services-card__wrapper">
+                <img class="services-card__image" src="/assets/imgs/ux.png" alt="Image of UX on computer">
+                <h3 class="services-card__heading">UX Design</h3>
+                <h4 class="services-card__subheading">Mobile App, Website</h4>
+                <p class="services-card__text">Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed
+                    faucibu s faucibus augue. Cras ut.</p>
+            </div>
+            <div class="services-card__wrapper">
+                <img class="services-card__image" src="/assets/imgs/game.png" alt="Image of Game on computer">
+                <h3 class="services-card__heading">Game Design</h3>
+                <h4 class="services-card__subheading">Mobile App, Website</h4>
+                <p class="services-card__text">Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed
+                    faucibu s faucibus augue. Cras ut.</p>
+            </div>
+            <div class="services-card__wrapper">
+                <img class="services-card__image" src="/assets/imgs/gd.png" alt="Image of Graphic on computer">
+                <h3 class="services-card__heading">Graphic Design</h3>
+                <h4 class="services-card__subheading">Mobile App, Website</h4>
+                <p class="services-card__text">Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed
+                    faucibu s faucibus augue. Cras ut.</p>
+            </div>
+            <div class="services-card__wrapper">
+                <img class="services-card__image" src="/assets/imgs/web-dev.png" alt="Image of web on computer">
+                <h3 class="services-card__heading">Web
+                    Design</h3>
+                <h4 class="services-card__subheading">Mobile App, Website</h4>
+                <p class="services-card__text">Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed
+                    faucibu s faucibus augue. Cras ut.</p>
+            </div>
+            <div class="services-card__wrapper">
+                <img class="services-card__image" src="/assets/imgs/app-dev.png" alt="Image of app on computer">
+                <h3 class="services-card__heading">App Development</h3>
+                <h4 class="services-card__subheading">Mobile App, Website</h4>
+                <p class="services-card__text">Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed
+                    faucibu s faucibus augue. Cras ut.</p>
+            </div>
+            <div class="services-card__wrapper">
+                <img class="services-card__image" src="/assets/imgs/dm.png" alt="Image of Marketing on computer">
+                <h3 class="services-card__heading">Digital Marketing</h3>
+                <h4 class="services-card__subheading">Mobile App, Website</h4>
+                <p class="services-card__text">Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed
+                    faucibu s faucibus augue. Cras ut.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Services End  -->
+
+
+    <!-- Start Footer -->
+    <footer class="footer footer-wrapper">
+        <section class="footer-top">
+            <div class="footer-top__item">
+                <h5 class="footer-top__item-heading">
+                    <span class="footer-top__item-heading-orange">Digie</span>ncy
+                </h5>
+                <p class="footer-top__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam similique omnis voluptatum sapiente
+                </p>
+                <div class="footer-top__social-links">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-skype"></i>
+                </div>
+            </div>
+            <div class="footer-top__item">
+                <h5 class="footer-top__item-heading">
+                    Company
+                </h5>
+                <ul class="footer-top__item-nav">
+                    <li class="footer-top__item-nav__item">
+                        <a href="#">About Us</a>
+                    </li>
+                    <li class="footer-top__item-nav__item">
+                        <a href="#">Our Work</a>
+                    </li>
+                    <li class="footer-top__item-nav__item">
+                        <a href="#">Client</a>
+                    </li>
+                    <li class="footer-top__item-nav__item">
+                        <a href="#">Our Blog</a>
+                    </li>
+                    <li class="footer-top__item-nav__item">
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-top__item">
+                <h5 class="footer-top__item-heading">
+                    Services
+                </h5>
+                <ul class="footer-top__item-nav">
+                    <li class="footer-top__item-nav__item">
+                        <a href="#">Graphic Design</a>
+                    </li>
+                    <li class="footer-top__item-nav__item">
+                        <a href="#">UI/UX Design</a>
+                    </li>
+                    <li class="footer-top__item-nav__item">
+                        <a href="#">Web Dev</a>
+                    </li>
+                    <li class="footer-top__item-nav__item">
+                        <a href="#">App Dev</a>
+                    </li>
+                    <li class="footer-top__item-nav__item">
+                        <a href="#">Web Hosting</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-top__item">
+                <h5 class="footer-top__item-heading">
+                    Newsletter
+                </h5>
+                <p class="footer-top__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam similique omnis voluptatum sapiente
+                </p>
+                <form class="footer-top__item-form">
+                    <input class="footer-top__item-form__input" type="text" placeholder="info@gmail.com">
+                    <button class="footer-top__item-form__button" type="button">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+        <section class="footer-bottom">
+            <p>© Copyright 2022. All Rights Reserved by Military Then Code</p>
+        </section>
+    </footer>
+    <!-- End Footer -->
+    <script src="/assets/js/main.js"></script>
 </body>
+
 </html>
